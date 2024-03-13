@@ -57,9 +57,20 @@
             &::after {
                 top: 0;
                 opacity: 0.9;
-                border-radius: 50px;
             }
         }
+    }
+
+    &__btns {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        text-align: center;
     }
 
     .social-icons {

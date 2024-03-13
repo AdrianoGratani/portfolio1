@@ -234,7 +234,17 @@
 .projects__item:hover::after {
   top: 0;
   opacity: 0.9;
-  border-radius: 50px;
+}
+.projects__btns {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  text-align: center;
 }
 .projects .social-icons {
   display: flex;
